@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            .wrap {
+                width: 2000px;
+                height: 2000px;
+                text-align: center;
+            }
+            .photo {
+                position: fixed;
+                top: 1%;
+                left: 1%;
+                width: 100px;
+            }
+             .a_search {
+                position: fixed;
+                top: 5%;
+                left: 95%;
+                width: 300px;
+                height:100px;
+                margin: -45px 0 0 -150px;
+            }
+            .bm_search {
+                color: white;
+                background-color: #5c74ff;
+                position: fixed;
+                top: 45%;
+                left: 43.4%;
+                border-radius: 2px;
+                border: #cfcfcf 1px solid;
+                width: 100px;
+                height:35px;
+            }
+            .bm_search:hover {
+                box-shadow: 0px 0px 2px 2px rgb(230, 230, 230);
+            }
+            .t {
+                position: fixed;
+                top: 15%;
+                left:5%;
+                border-block: 1px solid #d3ceca;
+                writing-mode: horizontal-tb;
+            }
+            h1 {
+               position: fixed;
+               top: 7%;
+               left:5%;
+               color: red;
+            }
+            .s {
+                border-radius: 1px;
+                border: #cfcfcf 1px solid;
+                width: 600px;
+                height:30px;
+                margin: 10px 20px 11px 0px;
+            }
+            .s:hover {
+                box-shadow: 0px 0px 2px 2px rgb(230, 230, 230);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Розширений пошук</h1>
+        <table class="t">
+            <thead>
+                <tr>
+                    <th>Знайти сторінки, що містять..</th>
+                    <th> </th>
+                    <th>Як це зробити в полі пошуку</th>
+                </tr>
+            </thead>
+            <tbody>
+                <form action="https://google.com/search">
+                <tr>
+                   <td>усі ці слова:</td>
+                    <td>
+                        <input type="text" name="q" class="s">
+                    </td> 
+                    <td>Введіть важливі слова: триколірний рет-тер’єр</td>
+                </tr>
+                <tr>
+                    <td>точне слово або фразу:</td>
+                    <td>
+                        <input type="text" name="q" class="s">
+                    </td> 
+                    <td>Візьміть точні слова в лапки: "рет-тер’єр"</td>
+                </tr>
+                <tr>
+                    <td>будь-яке з цих слів:</td>
+                    <td>
+                        <input type="text" name="q" class="s">
+                    </td> 
+                    <td>Введіть OR між усіма потрібними словами: мініатюрні OR стандартні</td>
+                </tr>
+                <tr>
+                    <td>жодне з цих слів:</td>
+                    <td>
+                        <input type="text" name="q" class="s">
+                    </td> 
+                    <td>Поставте знак мінус перед небажаними словами: -гризун, -"Джек Рассел"</td>
+                </tr>
+            </tbody>
+        </table>
+            <input type="submit" value="Search" class="bm_search">
+        </form>
+        <div class="a_search">
+            <a href="index.html">Back to search</a>
+        </div>
+        <div class="wrap">
+            <img src="google9262.png" alt="Google" class="photo">
+        </div>
+    </body>
+</html>
