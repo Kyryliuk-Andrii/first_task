@@ -36,16 +36,16 @@
                 width: 400px;
                 height:40px;
             }
-            .bm_search {
-                border-radius: 20px;
-                border: #cfcfcf 1px solid;
+             button {
                 position: fixed;
                 top: 45%;
-                left: 49%;
+                left: 50.5%;
+                border-radius: 20px;
+                border: #cfcfcf 1px solid;
                 width: 150px;
                 height:40px;
             }
-            .bm_search:hover {
+             button:hover {
                 box-shadow: 0px 0px 2px 2px rgb(230, 230, 230);
             }
         </style>
@@ -54,10 +54,9 @@
         <form action="https://google.com/search" class="s_centered">
             <input type="text" name="q" class="m_search">
         </form>
-        <form action="https://www.google.com.ua/imghp?hl=uk&ogbl">
-            <input type="text" name="q" class="m_search">
-            <input type="submit" value="Search pictures" class="bm_search">
-        </form>
+        <div>
+            <button onclick="window.location.href = 'https://www.google.com.ua/imghp?hl=uk&ogbl';">Search pictures</button>
+        </div>
         <div class="a_search">
             <a href="index.html">Back to search</a>
         </div>
