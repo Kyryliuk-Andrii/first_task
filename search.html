@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            .wrap {
+                width: 2000px;
+                height: 2000px;
+                text-align: center;
+            }
+            .photo {
+                position: fixed;
+                top: 29%;
+                left: 40%;
+                width: 300px;
+            }
+            .centered {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                width: 300px;
+                height:100px;
+                margin: -50px 0 0 -150px;
+            }
+            .s_centered {
+                position: fixed;
+                top: 45%;
+                left: 45%;
+                width: 300px;
+                height:100px;
+                margin: -45px 0 0 -150px;
+            }
+             .a_search {
+                position: fixed;
+                top: 5%;
+                left: 95%;
+                width: 300px;
+                height:100px;
+                margin: -45px 0 0 -150px;
+            }
+            .m_search {
+                border-radius: 20px;
+                border: #cfcfcf 1px solid;
+                width: 400px;
+                height:40px;
+            }
+            .bm_search {
+                position: fixed;
+                top: 45%;
+                left: 37%;
+                border-radius: 20px;
+                border: #cfcfcf 1px solid;
+                width: 150px;
+                height:40px;
+            }
+            .button {
+                position: fixed;
+                top: 45%;
+                left: 50.5%;
+                border-radius: 20px;
+                border: #cfcfcf 1px solid;
+                width: 150px;
+                height:40px;
+            }
+            button:hover {
+                box-shadow: 0px 0px 2px 2px rgb(230, 230, 230);
+            }
+            .bm_search:hover {
+                box-shadow: 0px 0px 2px 2px rgb(230, 230, 230);
+            }
+        </style>
+    </head>
+    <body>
+        <form action="https://google.com/search" class="s_centered">
+            <input type="text" name="q" class="m_search">
+            <input type="submit" value="Google Search" class="bm_search">
+            <button type="submit" formaction="https://www.google.com/doodles"class="button">I will be lucky!</button>
+        </form>
+        <div class="a_search">
+            <a href="advanced_search.html">Advanced search</a>
+            <a href="search_pictures.html">Website pictures</a>
+        </div>
+        <div class="wrap">
+            <img src="google9262.png" alt="Google" class="photo">
+        </div>
+    </body>
+</html>
